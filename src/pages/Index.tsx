@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import openserverlessLogo from "@/assets/openserverless-logo.png";
 import { toast } from "sonner";
 
 const Index = () => {
@@ -47,8 +46,8 @@ const Index = () => {
           {/* Logo */}
           <div className="animate-in fade-in zoom-in duration-500">
             <img
-              src={openserverlessLogo}
-              alt="Apache OpenServerless Logo"
+              src="/trustable.png"
+              alt="Trustable Logo"
               className="h-24 w-auto"
             />
           </div>
@@ -88,7 +87,7 @@ const Index = () => {
 
           {/* Info Text */}
           <p className="animate-in fade-in duration-1000 delay-300 text-center text-sm text-muted-foreground">
-            Powered by Apache OpenServerless
+            Powered by Trustable
           </p>
         </div>
       </div>
