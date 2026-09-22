@@ -6,7 +6,7 @@ const Index = () => {
           {/* Logo */}
           <div className="animate-in fade-in zoom-in duration-500">
             <img
-              src="/trustable.png"
+              src="/trustant.png"
               alt="Trustable Logo"
               className="h-24 w-auto"
             />
