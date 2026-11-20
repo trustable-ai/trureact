@@ -1,6 +1,6 @@
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-background via-background to-muted">
+    <div className="flex min-h-screen items-center justify-center bg-white">
       <div className="w-full max-w-md px-6">
         <div className="flex flex-col items-center space-y-8">
           {/* Logo */}
